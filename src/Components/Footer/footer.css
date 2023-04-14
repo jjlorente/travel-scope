@@ -67,4 +67,122 @@
 .footer .secContent .contactDiv .text h2 {
   color: var(--whitColor);
   font-size: 1.8rem;
+}
+.footer .secContent .contactDiv .inputDiv {
+  width: 100%;
+  gap: 1rem;
+  flex-direction: column;
+}
+.footer .secContent .contactDiv .inputDiv input {
+  width: 100%;
+  padding: 0.5rem 0.6rem;
+  border-radius: 3rem;
+  border: 1px solid var(--whitColor);
+  outline: none;
+  background: transparent;
+  color: var(--whitColor);
+}
+.footer .secContent .contactDiv .inputDiv input::-moz-placeholder {
+  color: var(--whitColor);
+  opacity: 0.5;
+}
+.footer .secContent .contactDiv .inputDiv input::placeholder {
+  color: var(--whitColor);
+  opacity: 0.5;
+}
+.footer .secContent .contactDiv .inputDiv .btn {
+  width: 100%;
+  justify-content: center;
+  color: var(--whitColor);
+  font-weight: 500;
+  gap: 0.5rem;
+}
+.footer .secContent .contactDiv .inputDiv .btn .icon {
+  font-size: 18px;
+}
+.footer .secContent .footerCard {
+  position: relative;
+  padding: 1rem 1rem 4rem;
+  gap: 2rem;
+  border-radius: 1rem;
+  background: var(--bodyColor);
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.footer .secContent .footerCard .footerIntro {
+  flex-basis: 50%;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+.footer .secContent .footerCard .logoDiv .logo {
+  color: var(--blackColor);
+  font-weight: 600;
+}
+.footer .secContent .footerCard .logoDiv .logo .icon {
+  font-size: 25px;
+  color: var(--PrimaryColor);
+  margin-right: 10px;
+}
+.footer .secContent .footerCard .footerParagraph {
+  font-size: 13px;
+  color: var(--textColor);
+}
+.footer .secContent .footerCard .footerSocials {
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+.footer .secContent .footerCard .footerSocials .icon {
+  color: var(--blackColor);
+  font-size: 20px;
+}
+.footer .secContent .footerCard .footerSocials .icon:hover {
+  color: var(--PrimaryColor);
+}
+.footer .secContent .footerCard .footerLinks {
+  flex-basis: 50%;
+  width: 100%;
+  gap: 1rem;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+}
+.footer .secContent .footerCard .footerLinks .linkGroup .groupTitle {
+  display: block;
+  font-weight: 600;
+  color: var(--blackColor);
+  margin-bottom: 0.5rem;
+}
+.footer .secContent .footerCard .footerLinks .linkGroup .footerList {
+  font-size: 15px;
+  color: var(--textColor);
+  transition: 0.3s ease-in-out;
+}
+.footer .secContent .footerCard .footerLinks .linkGroup .footerList .icon {
+  font-size: 15px;
+  color: var(--greyText);
+}
+.footer .secContent .footerCard .footerLinks .linkGroup .footerList:hover {
+  cursor: pointer;
+  color: var(--PrimaryColor);
+  transform: translateX(7px);
+}
+.footer .secContent .footerCard .footerLinks .linkGroup .footerList:hover .icon {
+  color: var(--SecondaryColor);
+}
+.footer .secContent .footerCard .footerDiv {
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--SecondaryColor);
+  padding: 0.5rem 2rem;
+}
+.footer .secContent .footerCard .footerDiv small {
+  font-size: 10px;
+  color: var(--whitColor);
 }/*# sourceMappingURL=footer.css.map */
