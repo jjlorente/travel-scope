@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './main.css'
 import img from '../../Assets/image1.jpg'
 import img2 from '../../Assets/image2.jpg'
 import {HiOutlineLocationMarker} from 'react-icons/hi'
 import {BsClipboardCheck} from 'react-icons/bs'
+
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Data = [
   {
@@ -82,10 +85,15 @@ const Data = [
 ]
 
 const Main = () => {
+
+  useEffect(() => {
+    Aos.init({duration: 2000})
+  }, [])
+
   return (
     <section className='main container section'>
       <div className="secTitle">
-        <h3 className="title">
+        <h3 data-aos="fade-right" className="title">
           Most visited destinations
         </h3>
       </div>
@@ -94,7 +102,7 @@ const Main = () => {
         {
           Data.map(({id, imgSrc, destTitle, location, grade, fees, description}) => {
             return (
-              <div key={id} className="singleDestination">
+              <div key={id} data-aos="fade-up" className="singleDestination">
                 <div className="imageDiv">
                   <img src={imgSrc} alt={destTitle} />
                 </div>
