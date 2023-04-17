@@ -22,7 +22,7 @@ const Data = [
     location: 'New Zealand',
     grade: 'CULTURAL RELAX',
     fees: '700$',
-    description: 'The epitome of romance, Bora Bora is one of the best travel destinatios in the World. This place is known for its luxurious stays and adventurous activities.'
+    description: 'Located in New Zealand, Bora Bora is a stunning island paradise that offers a perfect blend of luxury and adventure. With its crystal clear waters, white sandy beaches, and luxurious resorts, Bora Bora is the perfect destination for honeymooners or anyone looking to relax and unwind.'
   },
 
   {
@@ -32,7 +32,7 @@ const Data = [
     location: 'Peru',
     grade: 'CULTURAL RELAX',
     fees: '600$',
-    description: 'The epitome of romance, Bora Bora is one of the best travel destinatios in the World. This place is known for its luxurious stays and adventurous activities.'
+    description: 'Machu Picchu is one of the most iconic travel destinations in Peru, known for its rich history and breathtaking views. This ancient Incan citadel sits high in the Andes Mountains and offers visitors a chance to explore the ruins of this once great civilization.'
   },
   {
     id:3,
@@ -41,7 +41,7 @@ const Data = [
     location: 'Autralia',
     grade: 'CULTURAL RELAX',
     fees: '800$',
-    description: 'The epitome of romance, Bora Bora is one of the best travel destinatios in the World. This place is known for its luxurious stays and adventurous activities.'
+    description: 'Located in Australia, the Great Barrier Reef is one of the most spectacular natural wonders of the world. With its vibrant coral reefs and diverse marine life, this is the perfect destination for snorkeling, scuba diving, or simply taking a boat tour to explore this underwater wonderland.'
   },
   {
     id:4,
@@ -50,7 +50,7 @@ const Data = [
     location: 'Turkey',
     grade: 'CULTURAL RELAX',
     fees: '400$',
-    description: 'The epitome of romance, Bora Bora is one of the best travel destinatios in the World. This place is known for its luxurious stays and adventurous activities.'
+    description: 'Nestled in the heart of Turkey, Cappadocia is a magical destination that is famous for its fairy chimneys, underground cities, and hot air balloon rides. This unique landscape is a must-visit for anyone interested in history, culture, or adventure.'
   },
   {
     id:5,
@@ -59,7 +59,7 @@ const Data = [
     location: 'Mexico',
     grade: 'CULTURAL RELAX',
     fees: '1100$',
-    description: 'The epitome of romance, Bora Bora is one of the best travel destinatios in the World. This place is known for its luxurious stays and adventurous activities.'
+    description: 'Mexico is a vibrant country that offers a perfect blend of culture, history, and natural beauty. From the stunning beaches of Cancun and Cozumel to the ancient ruins of Chichen Itza and Tulum, Mexico is a destination that has something for everyone.'
   },
   {
     id:6,
@@ -68,7 +68,7 @@ const Data = [
     location: 'Italy',
     grade: 'CULTURAL RELAX',
     fees: '850$',
-    description: 'The epitome of romance, Bora Bora is one of the best travel destinatios in the World. This place is known for its luxurious stays and adventurous activities.'
+    description: 'Located in Italy, Cinque Terre is a charming seaside village that is known for its colorful houses, picturesque streets, and breathtaking views of the Mediterranean Sea. This is the perfect destination for anyone looking to escape the hustle and bustle of city life and immerse themselves in the beauty of the Italian coastline.'
   },
   {
     id:7,
@@ -77,7 +77,7 @@ const Data = [
     location: 'India',
     grade: 'CULTURAL RELAX',
     fees: '900$',
-    description: 'The epitome of romance, Bora Bora is one of the best travel destinatios in the World. This place is known for its luxurious stays and adventurous activities.'
+    description: 'Located in India, the Taj Mahal is one of the most iconic and beautiful buildings in the world. This stunning white marble mausoleum was built in the 17th century by the Mughal emperor Shah Jahan as a tribute to his wife, Mumtaz Mahal, and has since become a symbol of love and romance.'
   },
   {
     id:8,
@@ -86,7 +86,7 @@ const Data = [
     location: 'Cambodia',
     grade: 'CULTURAL RELAX',
     fees: '740$',
-    description: 'The epitome of romance, Bora Bora is one of the best travel destinatios in the World. This place is known for its luxurious stays and adventurous activities.'
+    description: 'Angkor Wat is a magnificent temple complex located in Cambodia and is one of the largest religious monuments in the world. Built in the early 12th century, this temple complex is a stunning example of Khmer architecture and is a must-visit destination for anyone interested in history or culture.'
   },
 ]
 
