@@ -1,7 +1,13 @@
 import React, { useEffect } from 'react'
 import './main.css'
-import img from '../../Assets/image1.jpg'
 import img2 from '../../Assets/image2.jpg'
+import img3 from '../../Assets/image3.jpg'
+import img4 from '../../Assets/image4.jpg'
+import img5 from '../../Assets/image5.jpg'
+import img6 from '../../Assets/image6.jpg'
+import img7 from '../../Assets/image7.jpg'
+import img8 from '../../Assets/image8.jpg'
+import img9 from '../../Assets/image9.jpg'
 import {HiOutlineLocationMarker} from 'react-icons/hi'
 import {BsClipboardCheck} from 'react-icons/bs'
 
@@ -11,7 +17,7 @@ import 'aos/dist/aos.css'
 const Data = [
   {
     id:1,
-    imgSrc: img,
+    imgSrc: img3,
     destTitle:'Bora Bora',
     location: 'New Zealand',
     grade: 'CULTURAL RELAX',
@@ -21,7 +27,7 @@ const Data = [
 
   {
     id:2,
-    imgSrc: img2,
+    imgSrc: img4,
     destTitle:'Machu Picchu',
     location: 'Peru',
     grade: 'CULTURAL RELAX',
@@ -30,7 +36,7 @@ const Data = [
   },
   {
     id:3,
-    imgSrc: img,
+    imgSrc: img5,
     destTitle:'Great Barrier Reef',
     location: 'Autralia',
     grade: 'CULTURAL RELAX',
@@ -48,7 +54,7 @@ const Data = [
   },
   {
     id:5,
-    imgSrc: img,
+    imgSrc: img6,
     destTitle:'Mexico',
     location: 'Mexico',
     grade: 'CULTURAL RELAX',
@@ -57,7 +63,7 @@ const Data = [
   },
   {
     id:6,
-    imgSrc: img2,
+    imgSrc: img7,
     destTitle:'Cinque Terre',
     location: 'Italy',
     grade: 'CULTURAL RELAX',
@@ -66,7 +72,7 @@ const Data = [
   },
   {
     id:7,
-    imgSrc: img,
+    imgSrc: img8,
     destTitle:'Taj Mahal',
     location: 'India',
     grade: 'CULTURAL RELAX',
@@ -75,7 +81,7 @@ const Data = [
   },
   {
     id:8,
-    imgSrc: img2,
+    imgSrc: img9,
     destTitle:'Angkor Wat',
     location: 'Cambodia',
     grade: 'CULTURAL RELAX',
